@@ -1,0 +1,97 @@
+.App-link{
+  display: flex;
+  justify-content: space-evenly;
+}
+.App-link {
+  color: hsl(27, 90%, 49%);
+}
+body{
+  background:rgba(91, 223, 135, 0.103);
+  /* background-image: url("https://image.shutterstock.com/image-photo/old-brick-black-color-wall-260nw-1605128917.jpg"); */
+}
+  
+/* body {
+  background: rgb(215, 214, 216);
+  background: radial-gradient(
+    circle,
+    rgb(216, 5, 188) 0%,
+    rgb(241, 7, 97) 0%,
+    rgb(1, 1, 252) 100%
+  );
+} */
+
+.container {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+  height:500px;
+  max-width: 500px;
+  width: 100%;
+  margin: auto;
+}
+.container > form {
+  width: 70%;
+  border: 1px solid #e4750e4b;
+  text-align: center;
+  padding: 20px;
+  border-radius: 5px;
+  background: #fff;
+}
+pre {
+  width: 100%;
+  color: rgb(230, 152, 152);
+  font-size: larger;
+}
+
+button {
+  background: #16da10 !important;
+  width:200px;
+}
+p {
+  color: rgb(230, 23, 23);
+}
+form
+{
+  text-align: center;
+}
+
+/* // for register */
+
+.container1 {
+  display: flex !important;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  height: 100vh;
+  /* height:200px; */
+  max-width: 500px;
+  width: 100%;
+  margin-left:auto; 
+}
+.container1 > form {
+  text-transform:initial;
+  width: 70%;
+  border: 1px solid #21e8f7;
+  padding: 20px;
+  border-radius: 10px;
+  background: rgb(168, 164, 164);
+  position: absolute;
+  top:50px;
+  right: 300px;
+  /* transform:translate(-50%,-50%) */
+}
+pre {
+  width:800%;
+  color: rgb(230, 152, 152);
+  font-size: larger;
+}
+button {
+ background-color: blue;
+  width:10px;
+}
+h2
+{
+   display: flex;
+}
